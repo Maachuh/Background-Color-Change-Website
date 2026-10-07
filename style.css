@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#change-color-button {
+    border-radius: 50px;
+    border-style: none;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(88, 233, 88);
+}
+
+#change-color-button:hover {
+    cursor: pointer;
+    background-color: rgb(183, 236, 183);
+}
+
+#change-color-button:active {
+    background-color: rgb(77, 100, 77);
+}
